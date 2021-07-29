@@ -1,0 +1,35 @@
+Test 01 - Ringtone
+------------------
+Intercom Volume: 100
+Call Direction : Icom -> Cabin
+Screenshot Num : 176
+
+Test 02 - Phone Tone
+--------------------
+Intercom Volume: 100
+Call Direction : Icom -> Cabin
+Screenshot Num : 177
+
+Test 03 - Ringtone
+------------------
+Intercom Volume: 50
+Call Direction : Icom -> Cabin
+Screenshot Num : 178
+
+Test 04 - Phone Tone
+--------------------
+Intercom Volume: 50
+Call Direction : Icom -> Cabin
+Screenshot Num : 179
+
+Test 05 - Ringtone
+------------------
+Intercom Volume: 25
+Call Direction : Icom -> Cabin
+Screenshot Num : 180
+
+Test 06 - Phone Tone
+--------------------
+Intercom Volume: 25
+Call Direction : Icom -> Cabin
+Screenshot Num : 180

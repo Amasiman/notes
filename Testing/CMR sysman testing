@@ -1,0 +1,41 @@
+Power events are sent after requests - must not do This
+power events are not retried if sending failed
+thermal messages dont work properly, only returns 0
+
+### changelog
+
+- nanomsg must be repeated until received
+    - if a message can be "skipped", why send it in the first place?
+
+TP2001
+
+
+01.4 @ 200mA
+
+--------------- Notes
+MAC ending
+- need implementation details from Dane
+
+
+AEM generation
+- some additions in AEM is complex, CMR team needs assistance with certain topics, e.g. multiplexer
+- EIZO use the same AEM tool
+- LW request EIZO to share their YAML as example - EIZO will share
+- Lesswire will send 
+
+
+fast forward/seek
+- EIZO still finalizing seek values for best user experience
+- LW asking EIZO to share values and use the same in their implementation
+
+
+playlist generation
+- playable field
+    - why add not playable files (even if marked as not playable)
+    - including all files because it's faster than checking each file (optimization)
+
+
+MP3 encoding
+- just increases buffer sizes
+- lesswire wanted to know if anyone used testbed to test mp3 content, answer was no
+- they have CMA and CMG but need help with configuration.  Units were shipped in September (very old software/firmware)

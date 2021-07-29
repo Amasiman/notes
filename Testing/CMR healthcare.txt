@@ -1,0 +1,14 @@
+lw-cm-r19-v3 sysmand[953]: LOG_DEBUG: /usr/lib/python2.7/sysman.py:288 - tcp://192.168.0.28:2227 Packet received
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_DEBUG: /usr/lib/python2.7/sysman.py:302 -  Device ID: 0x01
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_DEBUG: /usr/lib/python2.7/sysman.py:303 -  Device Nr: 1
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_DEBUG: /usr/lib/python2.7/sysman.py:304 - Message ID: 0x0030 (48)
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_INFO: /etc/sysmand/modules/doip_dtc.py:172 - get_dtc_info::unpack failed unpack requires a string argument of length 1
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_DEBUG: /usr/lib/python2.7/sysman.py:328 - Processing time: 14 ms
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_DEBUG: /usr/lib/python2.7/sysman.py:286 - tcp://192.168.0.28:2227 Waiting for packet...
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_DEBUG: /usr/lib/python2.7/sysman.py:288 - tcp://192.168.0.28:2227 Packet received
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_DEBUG: /usr/lib/python2.7/sysman.py:302 -  Device ID: 0x01
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_DEBUG: /usr/lib/python2.7/sysman.py:303 -  Device Nr: 1
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_DEBUG: /usr/lib/python2.7/sysman.py:304 - Message ID: 0x0033 (51)
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_INFO: /etc/sysmand/modules/doip_dtc.py:131 - get_dtc_info::unpack failed unpack requires a string argument of length 1
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_DEBUG: /usr/lib/python2.7/sysman.py:328 - Processing time: 13 ms
+Jan  1 00:18:14 imx6q-lw-cm-r19-v3 sysmand[953]: LOG_DEBUG: /usr/lib/python2.7/sysman.py:286 - tcp://192.168.0.28:2227 Waiting for packet...

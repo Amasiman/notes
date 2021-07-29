@@ -1,0 +1,62 @@
+Lessons Learnt
+	- Stakeholders are given impossible tasks.
+		- not right person for the job
+		- not enough training
+		- expected to argue requirements with suppliers without fundamental knowledge
+		- constant back and forth to clarify topics internally after every suppliers question
+		- causes extensions, confusion and frustration with suppliers 
+			- leads to delays and loss of trust in Bosch (i.e. guarantees future delays)
+
+Project requirements were not clear enough and many system limitations were not taken into consideration (lots of LCM requirements are not possible in the exact way mentioned, 
+modifications required)
+
+Some requirements do not seem to have clear goals - refer to CIS doc shutdown where it is asked to stop AVDECC when there is no real reason to do so.  Some tasks seem to 
+exist for generic requirements in other projects
+
+Suppliers follow spec too closely and are implementing systems that go against logic instead of questioning design flaws. Either they do not understand why they implement something
+(unclear project goals), or they lack proper leaders/managers/reviewers
+
+Integration engagement required earlier in project to help clarify implementation requirements.  Suppliers need some system to test against to help them understand. Just like 
+providing a fuel simulator so they can test calls required to fuel successfully. They need something to help them evaluate their implementation (and not just me).  should have
+emulated CMC on a testbed.
+
+----------
+
+The tech used was fairly new to all parties (including the people implementing it), and a lot was learned during development.  Unfortunately there was no process prepared
+for the "learning experience" - some implementation specs changed as functionality was fully understood and limits made clear.  This lack of understanding was of course a problem,
+as it lead to removing system features - we no longer had the time required to implement unplanned prerequisites (i.e. the ability to configure/mange VLAN or SSR). 
+My focus however, is what the lack of the processes needed to maintain such a learning experience caused.  When we found new issues, the experts came together and verbally adapted 
+our implementation.  This is fine, because we manage to keep dev time low and keep features.  But without a workflow, there was no spec update or review.  This same out of date
+spec was still shared, and wasted time with managers, testers and suppliers.
+
+Change management
+
+-------------------------------------
+- group lessons into topics/areas, list what when wrong, the impact, and possible improvements
+
+---------
+Dealt with / managed suppliers
+	- star topology of deliverables with UMAN and AVBOS
+
+
+
+Project took much longer than planned
+	- Stakeholder responsibilities were initially narrow enough in scope, but not long enough time
+		- change management was not properly done, documents are outdated, different implementations were approved but the spec was not always adjusted to reflect this.
+
+
+
+I came into the project late and was not involved in planning or re-designing many aspects, but I helped the CMR team clarify requirements in the early stages of their development (not too early)
+
+CMR development Phase
+	- repeating past mistakes
+	- people currently reponsible for the project do not have the competency to identify every problem. those with the competency don't have the time to 
+		micro-manage the project.
+		- need to establish processes and communication lines that allows experts to support
+		- we need to identify where competency lacks and how/where to improve
+
+
+
+List negative side-effects:
+
+List solutions:

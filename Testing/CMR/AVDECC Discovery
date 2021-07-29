@@ -1,0 +1,55 @@
+NXP's GenAVB AVDECC controller demo application
+Number of discovered entities: 2
+Entity ID = 0x49f8001170000     Model ID = 0x49f8001170000     MAC address: 00:06:C6:80:01:17     Capabilities = 0x708 Association ID = 0x0
+     Talker:     sources = 4     capabilities = 0xc801
+         Stream   0: name =       Stream Output1    number of formats = 1    flags = 0x6    current_format = 0x00c0000000000000 ( 61883-4/MPEG2-TS )
+         Stream   1: name =       Stream Output2    number of formats = 1    flags = 0x6    current_format = 0x00c0000000000000 ( 61883-4/MPEG2-TS )
+         Stream   2: name =       Stream Output3    number of formats = 1    flags = 0x6    current_format = 0x00a0020240000200 ( 61883-6 AM824 2chans 48000kHz )
+         Stream   3: name =       Stream Output4    number of formats = 1    flags = 0x6    current_format = 0x00a0020240000200 ( 61883-6 AM824 2chans 48000kHz )
+     Listener:   sinks   = 4     capabilities = 0x801
+         Stream   0: name =           CRF Stream    number of formats = 1    flags = 0x4    current_format = 0x00c0000000000000 ( 61883-4/MPEG2-TS )
+         Stream   1: name =        Stream Input1    number of formats = 1    flags = 0x4    current_format = 0x00c0000000000000 ( 61883-4/MPEG2-TS )
+         Stream   2: name =        Stream Input2    number of formats = 1    flags = 0x4    current_format = 0x00c0000000000000 ( 61883-4/MPEG2-TS )
+         Stream   3: name =        Stream Input3    number of formats = 1    flags = 0x4    current_format = 0x00c0000000000000 ( 61883-4/MPEG2-TS )
+     Controls:
+         Control  0: name = Stream3 Current Track Index Low Byte    type = 0x90e0f00000030004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control  1: name = Stream3 Current Track Index High Byte    type = 0x90e0f00000030004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control  2: name =   Stream3 Track Name    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control  3: name = Stream3 Total Play Time    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control  4: name = Stream3 Current Play Time    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control  5: name =  Stream3 Artist Name    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control  6: name =      Stream3 Seek To    type = 0x90e0f00000000000    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 255
+         Control  7: name =  Stream3 Play Action    type = 0x90e0f00000000000    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 255
+         Control  8: name =   Stream3 MAC Ending    type = 0x90e0f00000030004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control  9: name = Stream4 Current Track Index Low Byte    type = 0x90e0f00000030004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 10: name = Stream4 Current Track Index High Byte    type = 0x90e0f00000030004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 11: name =   Stream4 Track Name    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control 12: name = Stream4 Total Play Time    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control 13: name = Stream4 Current Play Time    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control 14: name =  Stream4 Artist Name    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control 15: name =      Stream4 Seek To    type = 0x90e0f00000000000    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 255
+         Control 16: name =  Stream4 Play Action    type = 0x90e0f00000000000    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 255
+         Control 17: name =   Stream4 MAC Ending    type = 0x90e0f00000030004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 18: name = Stream1 Current Track Index Low Byte    type = 0x90e0f00000030004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 19: name = Stream1 Current Track Index High Byte    type = 0x90e0f00000030004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 20: name =   Stream1 Video Name    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = unknown
+         Control 21: name = Stream1 Total Play Time    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control 22: name = Stream1 Current Play Time    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control 23: name = Stream1 Video Episode    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = unknown
+         Control 24: name =      Stream1 Seek To    type = 0x90e0f00000000004    read-only =  No    value_type = 1  min = 0 current = 0 max = 100 step = 1
+         Control 25: name =  Stream1 Play Action    type = 0x90e0f00000000000    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 26: name =   Stream1 MAC Ending    type = 0x90e0f00000030004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 27: name = Stream2 Current Track Index Low Byte    type = 0x90e0f00000030004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 28: name = Stream2 Current Track Index High Byte    type = 0x90e0f00000030004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 29: name =   Stream2 Video Name    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control 30: name = Stream2 Total Play Time    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control 31: name = Stream2 Current Play Time    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control 32: name = Stream2 Video Episode    type = 0x90e0f00000000004    read-only =  No    value_type = 31  current = time 0
+         Control 33: name =      Stream2 Seek To    type = 0x90e0f00000000004    read-only =  No    value_type = 1  min = 0 current = 0 max = 100 step = 1
+         Control 34: name =  Stream2 Play Action    type = 0x90e0f00000000000    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 35: name =   Stream2 MAC Ending    type = 0x90e0f00000030004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 36: name =   Stream5 MAC Ending    type = 0x90e0f00000000004    read-only =  No    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 37: name =    USB Device Status    type = 0x90e0f00000000004    read-only = Yes    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 38: name = Media Data Base Status    type = 0x90e0f00000000004    read-only = Yes    value_type = 1  min = 0 current = 0 max = 255 step = 1
+         Control 39: name = Media Checksum Status    type = 0x90e0f00000030003    read-only = Yes    value_type = 31  current = 0
+         Control 40: name =           Reserved 1    type = 0x90e0f00000030003    read-only = Yes    value_type = 31  current = track 0

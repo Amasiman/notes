@@ -1,0 +1,23 @@
+# 12/24v detection
+
+router will always operate at 24v in network
+
+Router will operate at 12 or 24 outside network (standalone)
+
+12/24 mode is CONFIGURED by DOIP
+    - Why do you have to configure this?
+        - Same DTC's must be used for both
+    - would be configured by DOIP  
+        - only during software installation
+
+# DTC
+Same DTC used for both 12/24
+    - no DTC recorded 
+
+
+Confirm to Carsten
+
+@GNM1PG1 Closing this topic requires the following:
+- Clarify the requirement from Carsten (how to check standalone/CIs mode) and confirm if Lesswire understands and can implement this requirement (add to open point list)
+- Confirm that  Lesswire understands that there is no DTC difference between 12V/24V.  No DTC generated between 8V - 32V (add to open point list)
+- Confirm this information is documented and clear in BPV

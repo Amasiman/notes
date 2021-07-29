@@ -1,0 +1,26 @@
+- why is cmg video so delayed, must be faster.
+
+
+- determine if ptp requirements can be set per device
+
+- confirm reason for the current
+- define what we really want
+
+
+- define hop delay per CMG (passing video content through)
+    - per data class 
+
+I have to draw two lines - one is where we currently are with delays (not instant), the next is what we want (instant).  Then
+I try and find out how we can bring the two lines closer. This will likely include stream reservation and buffer reduction.
+
+Split powerpoint specs into CMG specific and network as a whole
+    - e.g. 20th glass must have gm offset under 500ms but every glass must have pdelay under 20ms
+    - clarify that individual specs must pass regardless of hops to GM
+
+As per Michael:
+    - define as much as possible PTP requirements PER cmg, and add to the spec slides that the spec test must
+        include hops in-between
+        - definitely add ptp pdelay then
+    - create hop delay specification "sentence"
+
+    

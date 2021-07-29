@@ -1,0 +1,27 @@
+DTC discussion
+	- clarify findings with Carsten
+	- wtf does active mean
+	- give Kiran feedback
+	- confirm how DTC works in AVBOS with UMAN
+		- active DTC always sent
+		- can it be cleared without fixing anything?
+		- any difference between healthcare and request message? besides power state
+			- yes, one returns per id/type, the other returns all? must confirm.
+
+	result
+	- "cleared" is only possible via doip. not exposed to sysman
+	- "set" is used to set 1st bit to on or off
+	- '3rd' byte "dtc confirmed" is historic type, will stay active even after 1st byte clears
+	- any issue that has ever been active only once will always be sent
+
+Notes
+
+The DTC server is in DoIP and released in AVBOS.
+The interaction to CMC is on supplier - they get the DTC from doip and build a payload
+    - it's likely that this is linked to DOIP because I'm betting they simply copy the payload from one to the other, meaning
+    the order of DTC is the same as what DOIP gave.  Theres no dates here, so I'm going to guess list position is based on 
+    first occurrence.  
+    - Perhaps DoIP moves codes forward if updated?
+
+
+

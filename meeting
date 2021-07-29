@@ -1,0 +1,79 @@
+
+CMR meeting with Peter
+
+- DoIP messages required for histogram sensors (non CPU)
+- 60s self-protection timer
+- stay in protected off until master requests change
+
+
+Open points
+- confirm new 1.2 thermal spec and share with LW
+- push UMAN to confirm why CPU histogram started failing in 6.1.3
+- confirm DoIP requirement for pulling individual sensor histogram
+- get UMAN to confirm that getDTC and eventDTC is in same "replacable" plugin structure
+    - also improve documentation
+
+
+------------------- Standalone differences
+
+- no nanomsg
+ - Follow-Up Time (shutdown delay) for standalone mode
+ - BPV 292
+
+ - software update power mode not mentioned in standalone mode
+    - clarify and define test/verification specs
+
+ - LW recommends we use protected off mode in critical area already because there is no power master to adapt (e.g. system always critical too much)
+
+ - confirm cascading mode wrt standalone and cis
+
+ - device ID (NR) needs clarification
+    - do we need it
+    - how do we set it
+
+ - confirm adapting LPSD phy is required?
+
+
+ --------------------------------
+
+ Standalone power management implementation requires clarification:
+- Standalone mode requires different power management, but it still uses all of the interfaces built into sysman.
+- Having two versions of sysman software will require too much work and maintenance for Lesswire (which will translate to costs for Bosch).
+Specify IP ranges
+
+Sysman will be required in both standalone and CIS versions, because of self-protection. Remove references to Sysman and only refer to requirements, e.g. in standalone mode there is no LPSD and IGN PIN is the only wake-up trigger. We must avoid commenting on their implementation to avoid confusion / new work packages.
+
+how will standalone router be configured if it will stay in standalone
+
+
+
+installation requirements:
+
+configure sysman standalone
+static IP in standalone to save time?
+
+
+
+-----------------------
+
+CMP gets 300 hertz clock (CRF)
+
+
+SDMA IN
+
+
+TODO
+   - extract audio from capture to check if its okay
+   - increase PTS
+   - route sample clock to 1588 IN
+   - debug output
+   - accurate measurement of packet send time
+   - every 4th packet does not need a timestamp
+   
+
+
+
+----------------------------------------
+
+- Q5050 default phy roles JIRA ticket
+- 
